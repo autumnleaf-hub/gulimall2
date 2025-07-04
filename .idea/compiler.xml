@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for gulimall-product" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/programmingTools/apache-maven-3.9.9/repository/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+          <entry name="D:/programmingTools/apache-maven-3.9.9/repository/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="gulimall-product" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for gulimall" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/programmingTools/apache-maven-3.9.9/repository/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="gulimall-coupon" />
+        <module name="gulimall-ware" />
+      </profile>
+      <profile name="Annotation profile for gulimall-member" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/programmingTools/apache-maven-3.9.9/repository/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+          <entry name="D:/programmingTools/apache-maven-3.9.9/repository/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="gulimall-member" />
+      </profile>
+      <profile name="Annotation profile for gulimall-order" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/programmingTools/apache-maven-3.9.9/repository/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+          <entry name="D:/programmingTools/apache-maven-3.9.9/repository/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="gulimall-order" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gulimall-coupon" options="-parameters" />
+      <module name="gulimall-member" options="-parameters" />
+      <module name="gulimall-order" options="-parameters" />
+      <module name="gulimall-product" options="-parameters" />
+      <module name="gulimall-ware" options="-parameters" />
+    </option>
+  </component>
+</project>
