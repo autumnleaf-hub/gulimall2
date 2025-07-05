@@ -14,7 +14,7 @@
 	<groupId>com.fzy.gulimall</groupId>
 	<artifactId>gulimall-coupon</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<n>gulimall-coupon</n>
+	<name>gulimall-coupon</name>
 	<description>gulimall-coupon</description>
 	<url/>
 	<licenses>
